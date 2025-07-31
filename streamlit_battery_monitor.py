@@ -646,4 +646,4 @@ def control_panel_page():
                 with col2:
                     if st.button(f"⚡ Discharge", key=f"discharge_{key}", use_container_width=True):
                         st.session_state.cells_data[key]['current'] = random.uniform(-3.0, -1.0)
-                        st.success(f"⚡ {key}
+                    
